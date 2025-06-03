@@ -17,8 +17,8 @@ JavaScript (ES6) – logic and interactivity
 
 📂 Project Structure
   MiniQuiz/
-  │
-  ├── index.html          # Main HTML page
-  ├── style.css           # CSS styling
-  ├── script.js           # JavaScript logic
-  └── README.md           # Project documentation
+│
+├── index.html          # Main HTML page
+├── style.css           # CSS styling
+├── script.js           # JavaScript logic
+└── README.md           # Project documentation
