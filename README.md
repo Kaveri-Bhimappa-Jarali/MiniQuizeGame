@@ -16,9 +16,13 @@ CSS3 – styling and layout
 JavaScript (ES6) – logic and interactivity
 
 📂 Project Structure
-  MiniQuiz/
+  MiniQuiz
+  
 │
 ├── index.html          # Main HTML page
+
 ├── style.css           # CSS styling
+
 ├── script.js           # JavaScript logic
+
 └── README.md           # Project documentation
