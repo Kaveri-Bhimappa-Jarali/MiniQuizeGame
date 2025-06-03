@@ -18,6 +18,7 @@ JavaScript (ES6) – logic and interactivity
 📂 Project Structure
 
   MiniQuiz
+  
 │
 ├── index.html          # Main HTML page
 
