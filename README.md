@@ -20,6 +20,7 @@ JavaScript (ES6) – logic and interactivity
   MiniQuiz
   
 │
+
 ├── index.html          # Main HTML page
 
 ├── style.css           # CSS styling
