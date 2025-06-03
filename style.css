@@ -1,0 +1,42 @@
+body {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    font-family: sans-serif;
+}
+.welcome {
+    width: 90%;
+    max-width: 700px;
+    height: auto;
+    margin: 20px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: #003344;
+    background-color: #ccf9f9;
+}
+#name, #usn, #email {
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: azure;
+    border: 2px solid rgb(0, 94, 255);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#login {
+    height: 40px;
+    width: 150px;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.781);
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#login:hover {
+    background-color: rgb(30, 30, 30);
+}
