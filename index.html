@@ -8,17 +8,14 @@
 <body>
     <div class="welcome">
         <h2>Welcome to Quiz!!</h2>
-        <form id="loginform">
-            <input type="text" placeholder="Enter Your Full Name" required id="name"><br><br>
-
-            <input type="text" maxlength="10" placeholder="Enter Your USN" required id="usn"><br><br>
-
-            <input type="email" placeholder="Enter Your Email" required id="email"><br><br>
-
-            <input type="button" value="Login" id="login">
+        <form id="loginform" action="submit.php" method="post">
+            <input type="text" placeholder="Enter Your Full Name" required id="name" name="name"><br><br>
+            <input type="text" maxlength="10" placeholder="Enter Your USN" required id="usn" name="usn"><br><br>
+            <input type="email" placeholder="Enter Your Email" required id="email" name="email"><br><br>
+            <input type="submit" value="Start Quize" id="login">
         </form>
     </div>
-
+    
     <script>
         document.getElementById("login").onclick = () => {
             const name = document.getElementById("name").value.trim();
@@ -28,7 +25,6 @@
                 alert("Please fill in all required fields before starting the quiz.");
                 return;
             }
-            // Store user info in session storage if needed
             sessionStorage.setItem("userName", name);
 
             window.location.href = "quiz.html";
