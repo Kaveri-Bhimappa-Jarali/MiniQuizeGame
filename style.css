@@ -1,19 +1,26 @@
 body {
     max-width: 100%;
     margin: 0 auto;
+    height:auto;
     padding: 0;
     font-family: sans-serif;
+    background-color: black;
+    background-image:url("login.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .welcome {
     width: 90%;
-    max-width: 700px;
+    max-width: 300px;
     height: auto;
     margin: 20px auto;
+    margin-top:30px;
     padding: 20px;
     box-sizing: border-box;
     border-radius: 10px;
     color: #003344;
-    background-color: #ccf9f9;
+    background-color: #ccf9f1;
 }
 #name, #usn, #email {
     height: 40px;
